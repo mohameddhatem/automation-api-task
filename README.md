@@ -1,6 +1,7 @@
 # automation-api-task
 
-Project Description
+Project Description :
+
 creating an automated tests for crud (create/read/update/delete) operations for petstore with reporting
 
 Installation Instructions
