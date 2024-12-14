@@ -4,6 +4,9 @@ Project Description :
 
 creating an automated tests for crud (create/read/update/delete) operations for petstore with reporting
 
+framework used : rest assured (java library)
+dataprovider used for creating user at petstore
+
 Installation Instructions
 
 Clone the repository:
