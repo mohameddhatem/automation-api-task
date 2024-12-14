@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UserTests" time="4.201" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hatem/Downloads/automation-api-task/target/test-classes:/Users/hatem/Downloads/automation-api-task/target/classes:/Users/hatem/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/hatem/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/hatem/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/hatem/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/hatem/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/hatem/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/hatem/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/hatem/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/hatem/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/hatem/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/hatem/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/hatem/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/hatem/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/hatem/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/hatem/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/hatem/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/hatem/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/hatem/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/hatem/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/hatem/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hatem/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/hatem/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/hatem/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-testng/2.19.0/allure-testng-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-java-commons/2.19.0/allure-java-commons-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-model/2.19.0/allure-model-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-test-filter/2.19.0/allure-test-filter-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-commandline/2.19.0/allure-commandline-2.19.0.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar:/Users/hatem/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/hatem/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-server/9.4.43.v20210629/jetty-server-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-http/9.4.43.v20210629/jetty-http-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-util/9.4.43.v20210629/jetty-util-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-io/9.4.43.v20210629/jetty-io-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-generator/2.19.0/allure-generator-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-plugin-api/2.19.0/allure-plugin-api-2.19.0.jar:/Users/hatem/.m2/repository/com/opencsv/opencsv/4.6/opencsv-4.6.jar:/Users/hatem/.m2/repository/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/Users/hatem/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/Users/hatem/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/hatem/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar:/Users/hatem/.m2/repository/org/jetbrains/annotations/15.0/annotations-15.0.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.3/jackson-dataformat-xml-2.13.3.jar:/Users/hatem/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/Users/hatem/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.7/woodstox-core-6.2.7.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.3/jackson-module-jaxb-annotations-2.13.3.jar:/Users/hatem/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/hatem/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/hatem/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/hatem/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/hatem/.m2/repository/org/allurefw/allure1-model/1.0/allure1-model-1.0.jar:/Users/hatem/.m2/repository/ru/qatools/commons/properties/2.0.RC5/properties-2.0.RC5.jar:/Users/hatem/.m2/repository/com/github/baev/jaxb-utils/1.0/jaxb-utils-1.0.jar:/Users/hatem/.m2/repository/org/apache/tika/tika-core/2.4.1/tika-core-2.4.1.jar:/Users/hatem/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/hatem/Downloads/automation-api-task/target/surefire/surefirebooter16981177592552430430.jar /Users/hatem/Downloads/automation-api-task/target/surefire 2024-12-14T22-56-18_842-jvmRun1 surefire10106284683148924656tmp surefire_013792698074391020202tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/hatem/Downloads/automation-api-task/target/test-classes:/Users/hatem/Downloads/automation-api-task/target/classes:/Users/hatem/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/hatem/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/hatem/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/hatem/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/hatem/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/hatem/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/hatem/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/hatem/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/hatem/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/hatem/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/hatem/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/hatem/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/hatem/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/hatem/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/hatem/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/hatem/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/hatem/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/hatem/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/hatem/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/hatem/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hatem/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/hatem/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/hatem/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-testng/2.19.0/allure-testng-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-java-commons/2.19.0/allure-java-commons-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-model/2.19.0/allure-model-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-test-filter/2.19.0/allure-test-filter-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-commandline/2.19.0/allure-commandline-2.19.0.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar:/Users/hatem/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/hatem/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-server/9.4.43.v20210629/jetty-server-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-http/9.4.43.v20210629/jetty-http-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-util/9.4.43.v20210629/jetty-util-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/org/eclipse/jetty/jetty-io/9.4.43.v20210629/jetty-io-9.4.43.v20210629.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-generator/2.19.0/allure-generator-2.19.0.jar:/Users/hatem/.m2/repository/io/qameta/allure/allure-plugin-api/2.19.0/allure-plugin-api-2.19.0.jar:/Users/hatem/.m2/repository/com/opencsv/opencsv/4.6/opencsv-4.6.jar:/Users/hatem/.m2/repository/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/Users/hatem/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/Users/hatem/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/hatem/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar:/Users/hatem/.m2/repository/org/jetbrains/annotations/15.0/annotations-15.0.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar:/Users/hatem/.m2/repository/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.3/jackson-dataformat-xml-2.13.3.jar:/Users/hatem/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/Users/hatem/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.7/woodstox-core-6.2.7.jar:/Users/hatem/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.3/jackson-module-jaxb-annotations-2.13.3.jar:/Users/hatem/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/hatem/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/hatem/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/hatem/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/hatem/.m2/repository/org/allurefw/allure1-model/1.0/allure1-model-1.0.jar:/Users/hatem/.m2/repository/ru/qatools/commons/properties/2.0.RC5/properties-2.0.RC5.jar:/Users/hatem/.m2/repository/com/github/baev/jaxb-utils/1.0/jaxb-utils-1.0.jar:/Users/hatem/.m2/repository/org/apache/tika/tika-core/2.4.1/tika-core-2.4.1.jar:/Users/hatem/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hatem"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/hatem/Downloads/automation-api-task"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/hatem/Downloads/automation-api-task/target/surefire/surefirebooter16981177592552430430.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1"/>
+    <property name="user.name" value="hatem"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/hatem/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/jb/z3880zrj6sx1gsnzk22psykh0000gn/T/"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/hatem/Downloads/automation-api-task"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/hatem/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testCreateUserWithData[10, mohameddhateem, mohamed, hatem, hatem@email.com, 12345, 12345, 1](1)" classname="tests.UserTests" time="1.706">
+    <failure message="Verify the status code is 200 expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Verify the status code is 200 expected [200] but found [500]
+	at tests.UserTests.testCreateUserWithData(UserTests.java:45)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore3.swagger.io/api/v3/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 10,
+    "username": "mohameddhateem",
+    "firstName": "mohamed",
+    "lastName": "hatem",
+    "email": "hatem@email.com",
+    "password": "12345",
+    "phone": "12345",
+    "userStatus": 1
+}
+HTTP/1.1 500 Internal Server Error
+Date: Sat, 14 Dec 2024 20:56:22 GMT
+Content-Type: application/json
+Content-Length: 110
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Expose-Headers: Content-Disposition
+Server: Jetty(9.4.53.v20231009)
+
+{
+    "code": 500,
+    "message": "There was an error processing your request. It has been logged (ID: 68203d487f8f2f5e)"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserById[10, mohameddhateem, mohamed, hatem, hatem@email.com, 12345, 12345, 1](1)" classname="tests.UserTests" time="0.689">
+    <failure message="Verify the status code is 200 expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Verify the status code is 200 expected [200] but found [500]
+	at tests.UserTests.testGetUserById(UserTests.java:63)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore3.swagger.io/api/v3/user/mohameddhateem
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Internal Server Error
+Date: Sat, 14 Dec 2024 20:56:23 GMT
+Content-Type: application/json
+Content-Length: 110
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Expose-Headers: Content-Disposition
+Server: Jetty(9.4.53.v20231009)
+
+{
+    "code": 500,
+    "message": "There was an error processing your request. It has been logged (ID: bf94b26be6ae1ea7)"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[10, mohameddhateem, mohamed, hatem, hatem@email.com, 12345, 12345, 1](1)" classname="tests.UserTests" time="0.718">
+    <failure message="Verify the status code is 200 expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Verify the status code is 200 expected [200] but found [500]
+	at tests.UserTests.testUpdateUser(UserTests.java:95)
+]]></failure>
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://petstore3.swagger.io/api/v3/user/mohameddhateem
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 10,
+    "username": "mohameddhateem",
+    "firstName": "mohamedUpdated",
+    "lastName": "hatemUpdated",
+    "email": "hatem@email.com",
+    "password": "12345",
+    "phone": "12345",
+    "userStatus": 1
+}
+HTTP/1.1 500 Internal Server Error
+Date: Sat, 14 Dec 2024 20:56:24 GMT
+Content-Type: application/json
+Content-Length: 110
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Expose-Headers: Content-Disposition
+Server: Jetty(9.4.53.v20231009)
+
+{
+    "code": 500,
+    "message": "There was an error processing your request. It has been logged (ID: 8e28cc214ef1c82f)"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser[10, mohameddhateem, mohamed, hatem, hatem@email.com, 12345, 12345, 1](1)" classname="tests.UserTests" time="0.713">
+    <failure message="Verify the status code is 200 expected [200] but found [500]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Verify the status code is 200 expected [200] but found [500]
+	at tests.UserTests.testDeleteUser(UserTests.java:112)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://petstore3.swagger.io/api/v3/user/mohameddhateem
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Internal Server Error
+Date: Sat, 14 Dec 2024 20:56:24 GMT
+Content-Type: application/json
+Content-Length: 110
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Expose-Headers: Content-Disposition
+Server: Jetty(9.4.53.v20231009)
+
+{
+    "code": 500,
+    "message": "There was an error processing your request. It has been logged (ID: 589f512e5ee0db28)"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

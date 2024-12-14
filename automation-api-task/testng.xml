@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="User API Tests">
+    <!-- Register Allure TestNG Listener -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+
+    <!-- Test for Create User with Parameters -->
+    <test name="Create User Test">
+        <parameter name="id" value="10" />
+        <parameter name="username" value="theUser" />
+        <parameter name="firstName" value="John" />
+        <parameter name="lastName" value="James" />
+        <parameter name="email" value="john@email.com" />
+        <parameter name="password" value="12345" />
+        <parameter name="phone" value="12345" />
+        <parameter name="userStatus" value="1" />
+        <classes>
+            <class name="tests.UserTests" />
+        </classes>
+    </test>
+
+    <!-- General User Tests -->
+    <test name="User Tests">
+        <classes>
+            <class name="tests.UserTests" />
+        </classes>
+    </test>
+</suite>
+
